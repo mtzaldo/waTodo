@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Web
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "waTodo", "waTodo\waTodo.csproj", "{4F288C75-BAB2-4E50-9E0C-55A3A22875C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoMVP", "TodoMVP\TodoMVP.csproj", "{80D3A63E-38CE-4CC2-8F1D-99C7A9BF96C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F288C75-BAB2-4E50-9E0C-55A3A22875C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F288C75-BAB2-4E50-9E0C-55A3A22875C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F288C75-BAB2-4E50-9E0C-55A3A22875C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F288C75-BAB2-4E50-9E0C-55A3A22875C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80D3A63E-38CE-4CC2-8F1D-99C7A9BF96C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80D3A63E-38CE-4CC2-8F1D-99C7A9BF96C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80D3A63E-38CE-4CC2-8F1D-99C7A9BF96C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80D3A63E-38CE-4CC2-8F1D-99C7A9BF96C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
