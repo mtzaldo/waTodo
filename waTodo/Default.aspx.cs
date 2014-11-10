@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -14,6 +14,7 @@ namespace waTodo
     public partial class Default : System.Web.UI.Page, Views.ITodo
     {
         Presenters.Todo _p = null;
+        string hello = string.Empty;
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -96,7 +97,7 @@ namespace waTodo
             if (!e.IsSuccessful)
                 Page.ClientScript.RegisterStartupScript(
                     this.GetType(),
-                    "operationError", 
+                    "operationError",
                     string.Format("alert('{0} : {1}')", e.Operation, e.Message),
                     true);
 
@@ -105,8 +106,8 @@ namespace waTodo
         //ITodo
         public List<Models.TodoItem> TodoList
         {
-            set 
-            { 
+            set
+            {
                 this.grvTodo.DataSource = value;
                 this.grvTodo.DataBind();
             }
@@ -115,8 +116,8 @@ namespace waTodo
         EventHandler<Events.OperationResultEventArgs> _onOperationExecuted = null;
         public EventHandler<Events.OperationResultEventArgs> OnOperationExecuted
         {
-            get 
-            { 
+            get
+            {
                 if (_onOperationExecuted == null)
                     _onOperationExecuted = new EventHandler<Events.OperationResultEventArgs>(OperationExecuted);
 
